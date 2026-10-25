@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mê Văn Học — Đăng video lên TikTok (Demo)</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 24px; }
+  .btn { display: inline-block; background: #fe2c55; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+  .note { background: #f6f6f6; border-left: 4px solid #fe2c55; padding: 12px 16px; margin: 20px 0; }
+  label { display: block; margin: 12px 0 4px; font-weight: bold; }
+  input[type="text"] { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>Mê Văn Học — Đăng video lên TikTok</h1>
+<p>Công cụ đăng video giáo dục của chính chủ kênh lên tài khoản TikTok của mình, qua Content Posting API chính thức của TikTok.</p>
+
+<div class="note">
+  <strong>Bản demo Sandbox:</strong> luồng dưới đây chạy trên môi trường Sandbox của TikTok for Developers, tài khoản thử nghiệm đã được ủy quyền.
+</div>
+
+<h2>Bước 1 — Đăng nhập TikTok</h2>
+<p>Bấm nút dưới đây để đăng nhập bằng TikTok và cấp quyền cho công cụ:</p>
+<p><a class="btn" href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawdrni8opnthh1rq&amp;scope=user.info.basic,video.upload&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fmevanhoc87.github.io%2Fmevanhoc-site%2Fcallback.html&amp;state=sandbox_demo">Đăng nhập bằng TikTok</a></p>
+
+<h2>Bước 2 — Đăng video nháp</h2>
+<p>Sau khi đăng nhập, chọn video và nhập caption rồi đăng lên dưới dạng bản nháp:</p>
+<label for="caption">Caption</label>
+<input type="text" id="caption" placeholder="Ví dụ: Tiết Văn Meme — Tập 001">
+<p><em>Video mẫu dùng trong bản demo là video giáo dục của chính chủ kênh.</em></p>
+<p><a href="index.html">← Về trang chính</a></p>
+</body>
+</html>
